@@ -20,3 +20,7 @@ map <C-\> :NERDTreeToggle<CR>
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" undo file changes after closing file
+set undodir=~/.vimdid
+set undofile
