@@ -27,3 +27,5 @@ set undodir=~/.vimdid
 set undofile
 
 filetype plugin on
+
+set number
