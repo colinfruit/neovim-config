@@ -9,6 +9,7 @@ Plug 'valloric/youcompleteme'
 
 Plug 'brooth/far.vim'
 
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 colorscheme gruvbox
@@ -24,3 +25,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " undo file changes after closing file
 set undodir=~/.vimdid
 set undofile
+
+filetype plugin on
