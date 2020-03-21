@@ -35,4 +35,8 @@ filetype plugin on
 
 set number
 
+
+:command SF Files
+:command SL Lines
+
 :command BT BlamerToggle
