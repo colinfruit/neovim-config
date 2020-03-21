@@ -13,6 +13,8 @@ Plug 'preservim/nerdcommenter'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+Plug 'APZelos/blamer.nvim'
 call plug#end()
 
 colorscheme gruvbox
@@ -32,3 +34,5 @@ set undofile
 filetype plugin on
 
 set number
+
+:command BT BlamerToggle
