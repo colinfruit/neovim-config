@@ -14,7 +14,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'APZelos/blamer.nvim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colorscheme gruvbox
@@ -39,4 +39,3 @@ set number
 :command SF Files
 :command SL Lines
 
-:command BT BlamerToggle
