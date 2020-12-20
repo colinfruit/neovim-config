@@ -5,8 +5,6 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'morhetz/gruvbox'
 
-Plug 'valloric/youcompleteme'
-
 Plug 'brooth/far.vim'
 
 Plug 'preservim/nerdcommenter'
