@@ -1,5 +1,5 @@
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 
